@@ -1,0 +1,9 @@
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\bin\Debug\LeMinhTinh_2154050301.exe.config
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\bin\Debug\LeMinhTinh_2154050301.exe
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\bin\Debug\LeMinhTinh_2154050301.pdb
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.csproj.AssemblyReference.cache
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.Properties.Resources.resources
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.csproj.GenerateResource.cache
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.csproj.CoreCompileInputs.cache
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.exe
+D:\KTPM\LeMinhTinh_2154050301\LeMinhTinh_2154050301\obj\Debug\LeMinhTinh_2154050301.pdb

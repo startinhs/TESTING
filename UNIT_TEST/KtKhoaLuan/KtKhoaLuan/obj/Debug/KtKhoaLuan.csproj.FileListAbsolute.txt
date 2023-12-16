@@ -1,0 +1,9 @@
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\bin\Debug\KtKhoaLuan.exe.config
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\bin\Debug\KtKhoaLuan.exe
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\bin\Debug\KtKhoaLuan.pdb
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.csproj.AssemblyReference.cache
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.Properties.Resources.resources
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.csproj.GenerateResource.cache
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.csproj.CoreCompileInputs.cache
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.exe
+D:\Documents\PROGRAMING\KTPM_Home_Test\KtKhoaLuan\KtKhoaLuan\obj\Debug\KtKhoaLuan.pdb
