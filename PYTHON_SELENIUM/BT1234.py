@@ -94,7 +94,8 @@ class Bai3:
         else: print("Khong tim thay!!"); return
     def deleteItem(self, key):
         if (key in self.Dict.keys()):
-            self.Dict.pop(key)
+            del self.Dict.key
+            # self.Dict.pop(key)
             print("Xoa thanh cong!!")
             return
         else: print ("Xoa that bai!!"); return
