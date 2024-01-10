@@ -7,11 +7,11 @@ driver.get('https://vnexpress.net/')
 results = driver.find_elements(By.CSS_SELECTOR, 'article.item-news')
 driver.implicitly_wait(15)
 for re in results:
-    # try:
-    text = re.find_element(By.TAG_NAME, 'h3').text
-    print(text)
-    print("*******************************************")
-    # except NoSuchElementException:
-    #     print("Loi!")
-    #     print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    try:
+        text = re.find_element(By.TAG_NAME, 'h3').text
+        print(text)
+        print("*******************************************")
+    except NoSuchElementException:
+        print("Loi!")
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 driver.close()
