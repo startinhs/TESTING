@@ -5,11 +5,13 @@ with open('test.csv','w',newline='') as f:
     writer = csv.DictWriter(f,fieldnames=fieldName)
     writer.writeheader()
     writer.writerow({'user':'TenDangNhap','password':'MatKhau'})
+    f.close()
 #Doc
 with open('test.csv','r',newline='') as f:
     reader = csv.DictReader(f)
     for row in reader:
         user = row['user']
         password = row['password']
+    f.close()
 print(user)
 print(password)

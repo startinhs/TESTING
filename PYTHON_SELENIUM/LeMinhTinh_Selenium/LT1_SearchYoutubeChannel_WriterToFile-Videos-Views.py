@@ -14,6 +14,7 @@ searchBox = driver.find_element(By.NAME, 'search_query')
 
 searchBox.send_keys(channel)
 searchBox.submit()
+driver.implicitly_wait(5)
 driver.find_element(By.ID, 'main-link').click()
 
 ###Chuyen tab videos
@@ -29,8 +30,7 @@ driver.find_element(By.ID, 'main-link').click()
 
 #cach3
 driver.find_element(By.LINK_TEXT, 'Videos').click()
-
-driver.implicitly_wait(10)
+driver.implicitly_wait(15)
 videos = driver.find_elements(By.CSS_SELECTOR, '#content > ytd-rich-grid-media')
 
 # listVideo = []
@@ -55,14 +55,12 @@ with open('startinhs.csv', 'w', newline='', encoding='utf-8') as f:
     writer.writeheader()
     for v in videos:
         try:
-            videoName = v.find_element(By.CSS_SELECTOR, '#meta a').text
-            view = v.find_element(By.CSS_SELECTOR, '#metadata-line > span:nth-child(3)').text
+            videoName = v.find_element(By.CSS_SELECTOR, '#meta > h3 > a').text
+            view = v.find_element(By.CSS_SELECTOR, '#metadata-line > span').text
             link = v.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
             writer.writerow({'videoName': videoName, 'view': view, 'link': link})
         except NoSuchElementException:
             print("Loi!")
     print("Ghi file thanh cong!")
 
-driver.implicitly_wait(10)
-time.sleep(10)
 driver.close()
